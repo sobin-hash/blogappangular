@@ -1,0 +1,22 @@
+#nav {
+    height: 7rem;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+#containermar{
+    margin-left: 200px;
+}
+#btnmar{
+ margin-left: 300px;
+}
+@media (max-width:700px) {
+    #containermar{
+        margin-left: 0px;
+    }
+    #btnmar{
+        margin-left: 0px;
+    }
+    
+}

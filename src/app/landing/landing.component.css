@@ -1,0 +1,40 @@
+#col1{
+    background-color: #0d1014;
+    color: white;
+    /* font-family: "Bungee Spice", sans-serif;
+     */
+     font-family: "IBM Plex Mono", monospace;
+
+    
+    font-size: 3rem;
+    min-height: 40rem;
+}
+#colh{
+    font-family: "Roboto Mono", monospace;
+
+}
+
+
+/* 
+@media (min-width:768px) {
+    .textsec{
+    font-size: 18px;
+
+
+    }
+}
+@media (min-width:1024px) {
+    .textsec{
+        font-size: 19px;
+    }
+}
+@media (min-width:1280px) {
+    .textsec{
+    font-size: 20px;
+
+    }
+} */
+.text-sec{
+    font-size: clamp(4rem, 0.4rem + 5.3333vw, 5rem);
+
+}

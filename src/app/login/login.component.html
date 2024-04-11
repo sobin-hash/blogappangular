@@ -1,0 +1,19 @@
+
+<div class="login-container  my-5">
+    <div class="p-5 m-5" style="border: 2px solid black;border-radius: 9px;">
+        <form [formGroup]="userLoginForm" class="mx-5 p-3">
+            <h1 class="login-title">Login</h1>
+            <div class="form-group">
+              <label for="email">Email:</label>
+              <input type="email" id="email" class="form-control" formControlName="email" name="email"  required>
+            </div>
+            <div class="form-group">
+              <label for="password">Password:</label>
+              <input type="password" id="password" class="form-control" formControlName="password" name="password"  required>
+            </div>
+            <button type="submit" class="btn-login" (click)="onSubmit()" >Login</button>
+            <p routerLink="/register" style="cursor: pointer;" class="d-flex justify-content-end mt-2">New user? Register Now</p>
+          </form>
+    </div>
+  </div>
+  
